@@ -1,3 +1,5 @@
+
+
 ---
 
 # Marketing Dashboard
@@ -28,6 +30,7 @@ Marketing_Dashboard/
 │   └── business.csv
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
+└── .gitignore                 # Ignore venv, caches, etc.
 ```
 
 ---
@@ -37,7 +40,7 @@ Marketing_Dashboard/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/snehasivak/Marketing_Dashboard.git
+git clone <your-repo-link>
 cd Marketing_Dashboard
 ```
 
