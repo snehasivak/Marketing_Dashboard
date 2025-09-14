@@ -209,4 +209,4 @@ if not insight:
 st.info(insight)
 
 st.markdown("---")
-st.markdown("© Your Name — Powered by Streamlit + Plotly")
+st.markdown("© Sneha Sivakumar — Powered by Streamlit + Plotly")
