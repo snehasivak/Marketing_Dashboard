@@ -4,6 +4,8 @@
 
 # Marketing Dashboard
 
+[🔗 **Live Demo on Streamlit**](https://share.streamlit.io/your-username/your-repo/main/app.py)
+
 ## 📌 Project Overview
 
 This project implements a **Marketing Intelligence Dashboard** using **Streamlit** and **Plotly** to analyze marketing campaigns and business metrics across multiple channels.
@@ -99,7 +101,7 @@ Open your browser at `http://localhost:8501` to view the dashboard.
 
 The dashboard is hosted on Streamlit:
 
-[🔗 **Live Demo on Streamlit**](https://share.streamlit.io/your-username/your-repo/main/app.py)
+[🔗 **Live Demo on Streamlit**](https://marketingdashboard-cxxk6zk4u2zqdxjzpm6asw.streamlit.app/)
 
 Or deploy it yourself:
 
