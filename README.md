@@ -40,7 +40,7 @@ Marketing_Dashboard/
 ### 1. Clone the repo
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/snehasivak/Marketing_Dashboard.git
 cd Marketing_Dashboard
 ```
 
