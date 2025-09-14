@@ -103,8 +103,6 @@ The dashboard is hosted on Streamlit:
 
 [🔗 **Live Demo on Streamlit**](https://marketingdashboard-cxxk6zk4u2zqdxjzpm6asw.streamlit.app/)
 
-Or deploy it yourself:
-
 1. Push the repo to GitHub.
 2. Go to [Streamlit Cloud](https://streamlit.io/cloud) and click **New App**.
 3. Select your GitHub repository and branch.
@@ -118,4 +116,3 @@ Developed by **Sneha Sivakumar** — Powered by **Streamlit** and **Plotly**.
 
 ---
 
-Would you like me to also prepare a **ready-to-use `requirements.txt`** for this dashboard so it runs directly on Streamlit Cloud without errors?
