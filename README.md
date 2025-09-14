@@ -1,5 +1,3 @@
-Absolutely! Here’s your **Marketing\_Dashboard README.md** rewritten in the same clean, professional style as your example:
-
 ---
 
 # Marketing Dashboard
@@ -30,7 +28,6 @@ Marketing_Dashboard/
 │   └── business.csv
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
-└── .gitignore                 # Ignore venv, caches, etc.
 ```
 
 ---
@@ -40,7 +37,7 @@ Marketing_Dashboard/
 ### 1. Clone the repo
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/snehasivak/Marketing_Dashboard.git
 cd Marketing_Dashboard
 ```
 
