@@ -24,14 +24,17 @@ It is designed for marketing analysts, managers, and business stakeholders to mo
 
 ```
 
-Marketing\_Dashboard/
-├── app.py                 # Main Streamlit app
-├── requirements.txt       # Python dependencies
-├── data/                  # Folder containing CSV files
+Marketing_Dashboard/
+├── app.py                     # Main Streamlit app
+├── data/                      # Folder containing CSV files
 │   ├── Facebook.csv
 │   ├── Google.csv
 │   ├── TikTok.csv
 │   └── business.csv
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
+└── .gitignore                 # Ignore venv, caches, etc.
+
 
 ````
 
