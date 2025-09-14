@@ -1,5 +1,3 @@
-Sure! Here’s your complete `README.md` ready to be used in your repository:
-
 ```markdown
 # Marketing_Dashboard
 
@@ -125,8 +123,3 @@ You can deploy the dashboard easily on **Streamlit Community Cloud**:
 Developed by **Sneha Sivakumar** — Powered by **Streamlit** and **Plotly**.
 
 ---
-
-
-
-If you want, I can also create a **ready-to-use `requirements.txt`** file for this dashboard so it can run directly without errors on Streamlit Cloud. Do you want me to do that?
-```
