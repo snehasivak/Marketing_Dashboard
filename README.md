@@ -1,29 +1,26 @@
-```markdown
-# Marketing_Dashboard
-
-🌟 **Marketing Intelligence Dashboard** built with **Streamlit** and **Plotly** for analyzing marketing campaigns and business metrics across multiple channels.
-
-[🔗 **Live Demo on Streamlit**](https://marketingdashboard-cxxk6zk4u2zqdxjzpm6asw.streamlit.app/)
----
-
-## **Overview**
-
-This dashboard connects marketing activity with business outcomes, providing insights into:
-
-- Daily revenue, spend, and attributed revenue trends
-- Channel performance comparison (Facebook, Google, TikTok)
-- Campaign & tactic ROI drilldown
-- Key performance indicators (KPIs) such as Orders, Revenue, ROAS, CAC, and Gross Margin
-- Actionable insights based on data trends
-
-It is designed for marketing analysts, managers, and business stakeholders to monitor campaign effectiveness in an interactive way.
+Absolutely! Here’s your **Marketing\_Dashboard README.md** rewritten in the same clean, professional style as your example:
 
 ---
 
-## **Repository Structure**
+# Marketing Dashboard
+
+## 📌 Project Overview
+
+This project implements a **Marketing Intelligence Dashboard** using **Streamlit** and **Plotly** to analyze marketing campaigns and business metrics across multiple channels.
+
+The dashboard provides insights into:
+
+* Daily revenue, spend, and attributed revenue trends
+* Channel performance comparison (Facebook, Google, TikTok)
+* Campaign & tactic ROI drilldown
+* Key performance indicators (KPIs) such as Orders, Revenue, ROAS, CAC, and Gross Margin
+* Actionable insights for marketing analysts and business stakeholders
+
+---
+
+## 📂 Repository Structure
 
 ```
-
 Marketing_Dashboard/
 ├── app.py                     # Main Streamlit app
 ├── data/                      # Folder containing CSV files
@@ -34,23 +31,22 @@ Marketing_Dashboard/
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
 └── .gitignore                 # Ignore venv, caches, etc.
-
-
-````
+```
 
 ---
 
-## **Installation & Setup**
+## ⚙️ Setup Instructions
 
-### **1. Clone the repository**
+### 1. Clone the repo
+
 ```bash
 git clone <your-repo-link>
 cd Marketing_Dashboard
-````
+```
 
-### **2. Install dependencies**
+### 2. Install dependencies
 
-It's recommended to use a virtual environment:
+It’s recommended to use a virtual environment:
 
 ```bash
 python -m venv venv
@@ -60,7 +56,14 @@ venv\Scripts\activate         # Windows
 pip install -r requirements.txt
 ```
 
-### **3. Run the dashboard locally**
+Minimal requirements:
+
+* streamlit
+* pandas
+* plotly
+* numpy
+
+### 3. Run the dashboard locally
 
 ```bash
 streamlit run app.py
@@ -68,48 +71,19 @@ streamlit run app.py
 
 Open your browser at `http://localhost:8501` to view the dashboard.
 
----
-
-## **Requirements**
-
-Make sure the `requirements.txt` includes all the dependencies used in the app:
-
-```
-streamlit
-pandas
-plotly
-numpy
-```
-
-*(Add any other libraries you may use in future updates.)*
+> **Note:** Make sure `requirements.txt` is up-to-date; this ensures the app runs smoothly locally or on Streamlit Cloud.
 
 ---
 
-## **Data Requirements**
+## 🚀 Workflow
 
-Place your marketing and business CSV files inside the `data` folder:
+### 1. Data Preparation
 
-* `Facebook.csv`, `Google.csv`, `TikTok.csv` — Marketing campaign data with columns like `date`, `clicks`, `impression`, `spend`, `attributed revenue`, `campaign`, `tactic`.
-* `business.csv` — Business metrics with columns like `date`, `# of orders`, `# of new orders`, `new customers`, `total revenue`, `gross profit`, `COGS`.
+* Marketing CSV files: `Facebook.csv`, `Google.csv`, `TikTok.csv` — containing `date`, `clicks`, `impression`, `spend`, `attributed revenue`, `campaign`, `tactic`.
+* Business metrics CSV: `business.csv` — containing `date`, `# of orders`, `# of new orders`, `new customers`, `total revenue`, `gross profit`, `COGS`.
+* Ensures column names match app code for proper plotting and KPI calculations.
 
-> Make sure the CSV column names match those used in the app code.
-
----
-
-## **Deployment**
-
-You can deploy the dashboard easily on **Streamlit Community Cloud**:
-
-1. Push the repo to GitHub.
-2. Go to [Streamlit Cloud](https://streamlit.io/cloud) and click **New App**.
-3. Select your GitHub repository and branch.
-4. Choose `app.py` as the main file and deploy.
-
-> Make sure `requirements.txt` is up-to-date; Streamlit Cloud installs all dependencies from it.
-
----
-
-## **Features**
+### 2. Interactive Dashboard Features
 
 * **Custom Sidebar:** Gradient background with white labels and input fields
 * **Date & Channel Filters:** Dynamic filtering of data by date range and marketing channel
@@ -121,8 +95,25 @@ You can deploy the dashboard easily on **Streamlit Community Cloud**:
 
 ---
 
-## **Credits**
+## 🌐 Deployment
+
+The dashboard is hosted on Streamlit:
+
+[🔗 **Live Demo on Streamlit**](https://share.streamlit.io/your-username/your-repo/main/app.py)
+
+Or deploy it yourself:
+
+1. Push the repo to GitHub.
+2. Go to [Streamlit Cloud](https://streamlit.io/cloud) and click **New App**.
+3. Select your GitHub repository and branch.
+4. Choose `app.py` as the main file and deploy.
+
+---
+
+## ✍️ Author
 
 Developed by **Sneha Sivakumar** — Powered by **Streamlit** and **Plotly**.
 
 ---
+
+Would you like me to also prepare a **ready-to-use `requirements.txt`** for this dashboard so it runs directly on Streamlit Cloud without errors?
