@@ -30,7 +30,7 @@ Marketing_Dashboard/
 │   └── business.csv
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
-└── .gitignore                 # Ignore venv, caches, etc.
+
 ```
 
 ---
